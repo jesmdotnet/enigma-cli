@@ -21,11 +21,14 @@ source venv/bin/activate
 or enigma-cli encrypt "HELLO WORLD"
 also enigma-cli decrypt 'message'
 
-
-## #roadmap1 - Customisable Rotors
-3 - adds option to customise rotors per message
+## Updates
+### #roadmap1 - Customisable Rotors
+1 - adds option to customise rotors per message
 ("--rotors", nargs=3, metavar=('ROTOR1', 'ROTOR2', 'ROTOR3'),
                         help="Rotor wirings (3 strings, 26 characters each)")
 
 eg
 enigma-cli "HELLO" --rotors QWERTYUIOPASDFGHJKLZXCVBNM MNBVCXZLKJHGFDSAPOIUYTREWQ ZYXWVUTSRQPONMLKJIHGFEDCBA
+
+### #roadmap2 - Start Positions
+2 - removed the customisable rotors and changed to start positions in the alphabet to be closer to original operating spec.
