@@ -1,3 +1,4 @@
+README.md
 enigma.py
 main.py
 setup.py
