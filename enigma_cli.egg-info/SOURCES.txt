@@ -1,0 +1,8 @@
+enigma.py
+main.py
+setup.py
+enigma_cli.egg-info/PKG-INFO
+enigma_cli.egg-info/SOURCES.txt
+enigma_cli.egg-info/dependency_links.txt
+enigma_cli.egg-info/entry_points.txt
+enigma_cli.egg-info/top_level.txt
